@@ -33,7 +33,7 @@ public:
     Octree( int size, const T& emptyValue = T(0) );
     Octree( const Octree<T,AS>& o );
     ~Octree();
-
+//Ignore if unneccesary
     // Accessors
     int size() const;
     const T& emptyValue() const;
